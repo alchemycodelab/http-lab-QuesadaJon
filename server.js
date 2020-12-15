@@ -1,5 +1,5 @@
-const app = require('./lib/app');
+const server = require('./lib/app');
 
-app.listen(7890, () => {
-  console.log('Application started!');
+server.listen(8845, () => {
+  console.log('Server listening on 8845');
 });
